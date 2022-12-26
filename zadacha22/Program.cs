@@ -3,7 +3,7 @@
 Console.Write("введите число : ");
 int N = int.Parse(Console.ReadLine());
 int count = 1;
-while(count <= N);
+while(count <= N)
 {
    // Concole.WriteLine(Math.Pow(count, 2));
     Console.WriteLine($"{Math.Pow(count, 2)}");
@@ -14,6 +14,6 @@ while(count <= N);
 //int N = int.Parse(Console.ReadLine());
 //for(int I = 1; I<=N; I++)
 //{
-   // if (I--N){Console.Write($"{Math.Pow(I, 2)}");}
-   //else Console.Write($"{Math.Pow(I, 2)}, ");
+// if (I--N){Console.Write($"{Math.Pow(I, 2)}");}
+//else Console.Write($"{Math.Pow(I, 2)}, ");
 //}
